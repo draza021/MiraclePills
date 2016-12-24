@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var buyNowBtn: UIButton!
     @IBOutlet weak var successView: UIImageView!
     
-    let states = ["Alaska", "Alabama", "California", "New Yourk", "Michigan", "Hawai"]
+    let states = ["Alaska", "Alabama", "California", "New Yourk", "Michigan", "Hawai", "Chicago", "Texas"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +40,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         zipCodeText.isHidden = true
         buyNowBtn.isHidden = true
         statePicker.isHidden = false
-    }
+   }
     
     
     
