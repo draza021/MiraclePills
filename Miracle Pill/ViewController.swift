@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var buyNowBtn: UIButton!
     @IBOutlet weak var successView: UIImageView!
     
-    let states = ["Alaska", "Alabama", "California", "New Yourk", "Michigan", "Hawai", "Chicago", "Texas"]
+    let states = ["Alaska", "Alabama", "California", "New Yourk", "Michigan", "Hawai", "Chicago", "Texas", "Nebraska"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
